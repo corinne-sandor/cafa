@@ -1,0 +1,19 @@
+[project]
+name = "cafa"
+authors = [
+    { name = "Corinne Sandor" },
+    { name = "Eric Kerecz" },
+]
+
+dependencies = [
+"jupyterlab",
+"matplotlib",
+"numpy",
+"pandas",
+"scikit-learn",
+]
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+[project.urls]
+Soruce = "https://github.com/corinne-sandor/cafa"
