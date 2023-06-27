@@ -6,6 +6,7 @@ authors = [
 ]
 
 dependencies = [
+"bio",
 "jupyterlab",
 "matplotlib",
 "numpy",
