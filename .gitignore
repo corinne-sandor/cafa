@@ -1,5 +1,12 @@
 # IDE Files
 .vs/
+
+# Data Files
 data/
+
+# Notebook Files
 notebooks/.ipynb_checkpoints/
 notebooks/cafa-5-protein-function-with-tensorflow.ipynb
+
+# Build Files
+*.egg-info
