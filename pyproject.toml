@@ -34,6 +34,7 @@ dev = [
 ]
 
 dependencies = [
+"bio",
 "jupyterlab",
 "kaggle",
 "matplotlib",
