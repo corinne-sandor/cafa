@@ -11,6 +11,7 @@ notebooks/cafa-5-protein-function-with-tensorflow.ipynb
 
 # Build Files
 *.egg-info
+src/cafa/etl/__pycache__/
 
 # misc
 .DS_Store
