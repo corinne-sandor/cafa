@@ -5,9 +5,30 @@ authors = [
     { name = "Eric Kerecz" },
 ]
 
+dependencies = [
+"bio",
+"ipython",
+"jupyterlab",
+"kaggle",
+"matplotlib",
+"numpy",
+"obonet",
+"pandas",
+"progressbar",
+"scikit-learn",
+"seaborn",
+"tensorflow"
+]
+requires-python = ">=3.10"
+
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
+where = ["src"]
+
+[project.urls]
+Source = "https://github.com/corinne-sandor/cafa"
+
 
 [tool.black]
 line-length = 100
@@ -27,24 +48,8 @@ name = "cafa"
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[project.optional-dependencies]
-dev = [
-    "pre-commit",
-    "black"
-]
-
-dependencies = [
-"bio",
-"jupyterlab",
-"kaggle",
-"matplotlib",
-"numpy",
-"obonet",
-"pandas",
-"scikit-learn",
-"seaborn"
-]
-requires-python = ">=3.10"
-
-[project.urls]
-Source = "https://github.com/corinne-sandor/cafa"
+#[project.optional-dependencies]
+#dev = [
+#    "pre-commit",
+#    "black"
+#]
