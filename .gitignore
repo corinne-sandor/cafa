@@ -3,6 +3,7 @@
 
 # Data Files
 data/
+**.tsv
 
 # Notebook Files
 .ipynb_checkpoints
