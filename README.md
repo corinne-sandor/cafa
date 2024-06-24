@@ -2,22 +2,27 @@
 ---
 
 ## Overview
-**TODO**
-This repo is associated with a Kaggle competition. It mostly contains data handing & manipulation as an exercise among other things.
-
-**TODO**
-Why I did this? How to set it up? How to use it?
+This repo is associated with a Kaggle competition. The goal of the competition is to predict the gene ontologies for a set of proteins. 
+It contains data ETL, data analysis, feature engineering, and modeling.
 
 
 ## Setup/Installation
-**TODO**
-Here is the repo, here is how to set it up to contribute.
-
-**TODO**
-1. Presupposes at least python 3.10
-2. An existing miniconda/conda setup
-3. Clone repo, navigate to directory, pip install
+1. Presupposes an existing miniconda/conda setup and an environment with `python>3.10` (via `pyproject.toml`)
+2. Clone repo and navigate to the root level of the directory housing the repository
+3. Within the appropriate conda/python environment, `pip install` or `pip install -e .` if you're actively developing
 
 
 ## Usage
-**TODO**
+
+### Data Preparation
+
+1. Get data from [kaggle](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/data) and house in `./data`
+2. Open `notebooks/execute_data_flow.ipynb` and run it in its entirety
+3. This will produce two serialized datafiles that have been transformed, featured engineered & merged.
+   * Datafiles are outputed to the `data/flow_output/` directory
+
+### Data Analysis
+**TODO** See `project_overview.md` for now
+
+### Modeling
+**TODO** See `project_overview.md` for now
