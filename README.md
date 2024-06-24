@@ -22,7 +22,11 @@ It contains data ETL, data analysis, feature engineering, and modeling.
    * Datafiles are outputed to the `data/flow_output/` directory
 
 ### Data Analysis
-**TODO** See `project_overview.md` for now
+**TODO** 
+1. [See data_exploration.ipynb](./notebooks/data_exploration.ipynb)
+2. See `project_overview.md` for now
 
 ### Modeling
-**TODO** See `project_overview.md` for now
+**TODO** 
+1. [See model.ipynb](./notebooks/model.ipynb)
+2. See `project_overview.md` for now
